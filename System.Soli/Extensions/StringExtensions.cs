@@ -18,5 +18,13 @@
         /// <param name="o">object</param>
         /// <returns>lower of object string</returns>
         public static string ToLower(this object o) => o.ToString().ToLower();
+
+
+        /// <summary>
+        /// check string is empty or null by using interl .net extensions
+        /// </summary>
+        /// <param name="o"></param>
+        /// <returns></returns>
+        public static bool IsEmpty(this string o) => string.IsNullOrEmpty(o) || string.IsNullOrWhiteSpace(o);
     }
-}  
+}

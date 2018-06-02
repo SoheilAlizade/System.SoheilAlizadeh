@@ -4,6 +4,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Soli", "System.Soli\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Soli.Tests", "System.Soli.Tests\System.Soli.Tests.csproj", "{2BC72DA7-3C8C-4C04-AD02-E036530860F7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E17EABC-75FD-4A85-9171-2EB0CEE121E9}"
+ProjectSection(SolutionItems) = preProject
+	Release.sh = Release.sh
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
