@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Soli.Tests", "System
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E17EABC-75FD-4A85-9171-2EB0CEE121E9}"
 ProjectSection(SolutionItems) = preProject
-	Release.sh = Release.sh
+	.nuget\System.Soli.nuspec = .nuget\System.Soli.nuspec
 EndProjectSection
 EndProject
 Global
